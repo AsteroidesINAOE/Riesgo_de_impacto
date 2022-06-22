@@ -120,30 +120,104 @@
             La escala de Turín va desde 0 hasta 10, donde 0 indica un riesgo nulo y 10 indica una colisión segura. En la siguiente
             tabla podrá una descripción más detallada acerca de cada valor de la escala: 
           </p>
-          <table border="1">
-          <thead>
-            <tr>
-              <th><b>Nombre</b></th>
-              <th><b>Valor</b></th>
-              <th><b>Descripción</b></th>
-            </tr>  
-          </thead>
-          <tbody>
-            <tr style="background-color: white; color:black;">
-              <td>1</td>
-              <td>A1</td>
-              <td>B1</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>A2</td>
-              <td>B2</td>
-            </tr>
-          </tbody>
-        </table>
+          <center>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th><b>Nombre</b></th>
+                  <th><b>Valor</b></th>
+                  <th><b>Descripción</b></th>
+                </tr>  
+              </thead>
+              <tbody>
+                <tr style="background-color: white; color:black;">
+                  <td>Riesgo nulo</td>
+                  <td>0</td>
+                  <td>La probabilidad de colisión es cero, o tan baja que es prácticamente cero. Se aplica también a objetos 
+                    pequeños como meteoros o cuerpos celestes que se desintegran a su paso por la atmósfera, o que raramente 
+                    caen a la Tierra en forma de meteorito, y sólo excepcionalmente pueden causar daños de algún tipo.</td>
+                </tr>
+                <tr style="background-color: green; color:black;">
+                  <td>Normal</td>
+                  <td>1</td>
+                  <td>Las observaciones ocasionales pueden descubrir el paso cerca de la Tierra de objetos que tienen un 
+                    cierto peligro de colisión. Los cálculos y análisis realizados muestran que las probabilidades de colisión 
+                    son extremadamente bajas y no merecen mucha atención y preocupación entre la gente. Con casi total 
+                    probabilidad, las nuevas observaciones que se hagan llevarán a una reasignación al nivel 0.</td>
+                </tr>
+                <tr style="background-color: yellow; color:black;">
+                  <td>MERECEDORES DE ATENCIÓN POR PARTE DE LOS ASTRÓNOMOS</td>
+                  <td>2</td>
+                  <td>Colisión muy improbable de un objeto que lleva una trayectoria cercana a la Tierra. Merece la atención 
+                    de los astrónomos, pero no hay motivo de preocupación por parte de la población, ya que el riesgo no es muy 
+                    probable. Las nuevas observaciones pueden reasignar el riesgo al nivel 0.</td>
+                </tr>
+                <tr style="background-color: yellow; color:black;">
+                  <td>MERECEDORES DE ATENCIÓN POR PARTE DE LOS ASTRÓNOMOS</td>
+                  <td>3</td>
+                  <td>Encuentro cercano, merecedor de atención por parte de los astrónomos. Los cálculos indican una probabilidad 
+                    de colisión de hasta un 1%, capaz de causar destrucción a nivel local. Muy probablemente, las nuevas y más 
+                    precisas observaciones reconduzcan el peligro al nivel 0. Será necesaria la atención del público y de las 
+                    autoridades sobre todo si el riesgo de colisión está a menos de 10 años.</td>
+                </tr>
+                <tr style="background-color: yellow; color:black;">
+                  <td>MERECEDORES DE ATENCIÓN POR PARTE DE LOS ASTRÓNOMOS</td>
+                  <td>4</td>
+                  <td>Encuentro cercano, merecedor de atención por parte de los astrónomos. Los cálculos indican una probabilidad 
+                    de colisión de más de un 1%, capaz de causar devastación a nivel regional. Muy probablemente las nuevas 
+                    observaciones reasignarán el nivel de peligro a 0. Será necesaria la atención del público y de las autoridades 
+                    sobre todo si el riesgo de colisión está a menos de 10 años.</td>
+                </tr>
+                <tr style="background-color: orange; color:black;">
+                  <td>5</td>
+                  <td>ACONTECIMIENTOS PREOCUPANTES</td>
+                  <td>Encuentro cercano con un objeto que supone una amenaza seria, pero todavía incierta, de devastación regional. 
+                    La atención crítica de los astrónomos es necesaria para determinar si existe o no la posibilidad de un choque. 
+                    Si la colisión está prevista para menos de 10 años, deben considerarse medidas gubernamentales de urgencia.</td>
+                </tr>
+                <tr style="background-color: orange; color:black;">
+                  <td>6</td>
+                  <td>ACONTECIMIENTOS PREOCUPANTES</td>
+                  <td>Encuentro cercano con un gran objeto que supone una amenaza seria, pero todavía incierta, de una catástrofe 
+                    global. La atención crítica de los astrónomos es necesaria para determinar si existe o no la posibilidad de un 
+                    choque. Si la colisión está prevista para menos de 30 años, deben considerarse medidas gubernamentales de 
+                    urgencia.</td>
+                </tr>
+                <tr style="background-color: orange; color:black;">
+                  <td>7</td>
+                  <td>ACONTECIMIENTOS PREOCUPANTES</td>
+                  <td>Encuentro muy cercano con un gran objeto, que si ocurriera en el mismo siglo, supondría una amenaza sin 
+                    precedentes, pero todavía incierta, de catástrofe global. En estos casos, deben planificarse medidas 
+                    internacionales, y especialmente la necesidad de determinar rápidamente y con la mayor certeza posible si la 
+                    colisión tendrá lugar o no.</td>
+                </tr>
+                <tr style="background-color: red; color:black;">
+                  <td>8</td>
+                  <td>COLISIÓN SEGURA</td>
+                  <td>La colisión es segura, y con capacidad para causar destrucción localizada si impacta en tierra o un tsunami 
+                    si impacta en el mar. Tales acontecimientos se presentan de media entre una vez cada 50 años y una vez cada 
+                    varios miles de años.</td>
+                </tr>
+                <tr style="background-color: red; color:black;">
+                  <td>9</td>
+                  <td>COLISIÓN SEGURA</td>
+                  <td>La colisión es segura, y con capacidad para causar destrucción regional sin precedentes si impacta en tierra 
+                    o un tsunami devastador si lo hace en el mar. Tales acontecimientos se presentan de media entre una vez cada 
+                    10 000 años y una vez cada 100.000 años.</td>
+                </tr>
+                <tr style="background-color: red; color:black;">
+                  <td>10</td>
+                  <td>COLISIÓN SEGURA</td>
+                  <td>La colisión es segura, y con capacidad para causar una catástrofe climática global que pueda amenazar el 
+                    futuro de la civilización tal como la conocemos impacte donde impacte, en tierra o en el océano. Tales 
+                    acontecimientos se presentan de media una vez cada 100.000 años o más.</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <img src="img/escala turin.png" width="80%">
           
-          
-          
+          </center>
           
           <p>
             Hasta ahora, solo se ha registrado un asteroide cuya escala de peligro es superior a 1, es el caso del asteroide 99942 
