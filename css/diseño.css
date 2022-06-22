@@ -235,6 +235,10 @@ img {
   padding: 0;
 }
 
+.videos_pequeños {
+  display:none;
+}
+
 p {
   padding: 0 20px 0 10px;
   text-align: justify;
@@ -427,8 +431,16 @@ label {
     .indice {
       display:none;
     }
-      
+  
+    .videos_grandes {
+      display:none;
     }
+  
+    .videos_pequeños {
+      display:block;
+    }
+      
+}
 
 @media screen and (max-width: 400px){
     .modal-content {
