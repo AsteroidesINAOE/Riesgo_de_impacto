@@ -262,7 +262,7 @@ h4 {
   font-size: 20px;
 }
 
-videos_pequeños {
+.videos_pequeños {
   display:none;
 }
 
@@ -446,13 +446,13 @@ label {
       width: 90%;
     }
   
-    videos_grandes {
+    .videos_grandes {
       display:none;
-  }
+    }
   
-  videos_pequeños {
-    display:block;
-  }
+    .videos_pequeños {
+      display:block;
+    }
 }
 
 @media screen and (max-width: 400px){
